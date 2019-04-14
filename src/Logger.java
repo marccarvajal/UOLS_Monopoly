@@ -42,7 +42,7 @@ public class Logger {
         PrintWriter pw = null;
         try{
             // must be a PARAM
-            file = new FileWriter("./gameSet.txt",true);
+            file = new FileWriter("./gameSetNew.txt",true);
             pw = new PrintWriter(file);
             pw.println(args);
         } catch (Exception e) {

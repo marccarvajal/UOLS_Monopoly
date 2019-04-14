@@ -34,10 +34,10 @@ public class gestionPartida {
                     formattedText = formattedText.toLowerCase(); // Error control
                     //System.out.println(formattedText); // DEBUGGING
                     String[] elements = formattedText.split("=");
-                    String ParamName = elements[0].replace("\"", "");
-                    gameSettings.put(ParamName, elements[1].replace("\"", ""));
+                    String ParamName = elements[0].replace(" ", "");
+                    gameSettings.put(ParamName, elements[1].replace(" ", ""));
                     // Debugging
-                    System.out.println(ParamName + "= " + gameSettings.get(ParamName));
+                    System.out.println(ParamName + " has a value of: \n" + gameSettings.get(ParamName));
                 }
             }
         } finally {
@@ -47,5 +47,8 @@ public class gestionPartida {
         }
         return gameSettings;
     }
-    
+    public static Boolean saveGame(Map<String,String> gameSettings) throws IOException{
+        // TO DEVELOP
+        return true;
+    }
 }
