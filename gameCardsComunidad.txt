@@ -1,0 +1,16 @@
+1 = Mueve a la casilla de salida.
+2 = Error del banco ganas 200€.
+3 = Pagas al dentista 50€.
+4 = Ganas 50€ de dividendos.
+5 = Queda libre de la cárcel.
+6 = Ve a la cárcel.
+7 = Gran estreno en la ópera, cada jugador te paga 50€.
+8 = Dividendos ganas 100€.
+9 = Devolución de impuestos ganas 20€.
+10 = Feliz cumpleaños, ganas 10€ de cada jugador.
+12 = Primer premio en la lotería ganas 100€.
+13 = Multa de velocidad pagas 100€.
+14 = Matrícula escolar pagas 150€.
+15 = Tasa de consultor, ganas 25€.
+16 = Reparaciones 40€ por casa y 115€ por hotel.
+17 = Ganas el segundo premio en un concurso de disfraces ganas 10€. 

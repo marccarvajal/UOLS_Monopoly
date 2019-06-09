@@ -9,7 +9,7 @@ import java.util.ArrayList;
 import java.util.StringTokenizer;
 
 // Esta clase carga desde un fichero tokenizado [cadena,numero,numero] las Propiedades y las envía y carga a las Calles del tablero 
-class FicheroPropiedad 
+public class FicheroPropiedad 
 {
      File file = null;
      BufferedReader br = null;
