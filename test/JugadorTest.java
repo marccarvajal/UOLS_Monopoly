@@ -74,7 +74,7 @@ public class JugadorTest {
     @Test
     public void testSetCarcel() {
         System.out.println("setCarcel");
-        boolean carcel = false;
+        boolean carcel = true;
         Jugador instance = new Jugador();
         instance.setCarcel(carcel);
         // TODO review the generated test code and remove the default call to fail.
@@ -209,7 +209,7 @@ public class JugadorTest {
     @Test
     public void testSetNumJuga() {
         System.out.println("setNumJuga");
-        int numJuga = 0;
+        int numJuga = 100;
         Jugador instance = new Jugador();
         instance.setNumJuga(numJuga);
         // TODO review the generated test code and remove the default call to fail.
@@ -236,7 +236,7 @@ public class JugadorTest {
     @Test
     public void testSetEsMiTurno() {
         System.out.println("setEsMiTurno");
-        boolean esMiTurno = false;
+        boolean esMiTurno = true;
         Jugador instance = new Jugador();
         instance.setEsMiTurno(esMiTurno);
         // TODO review the generated test code and remove the default call to fail.

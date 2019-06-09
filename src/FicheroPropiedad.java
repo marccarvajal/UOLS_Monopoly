@@ -19,7 +19,7 @@ public class FicheroPropiedad
      String nombreProp="";
      
     //hago todo el proceso de carga, entra el Array tablero y voy arrastrando un booleano que dira si saco por consola o no los listados
-    void cargaEnMemoria(ArrayList tablero)
+    public void cargaEnMemoria(ArrayList tablero)
     {
         try 
         {

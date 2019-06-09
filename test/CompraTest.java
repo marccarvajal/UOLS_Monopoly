@@ -38,7 +38,7 @@ public class CompraTest {
         Jugador jugador = new Jugador();
         Calle calle = new Calle();
         Compra instance = new Compra(jugador, calle, 0);
-        Jugador expResult = null;
+        Jugador expResult = new Jugador();
         Jugador result = instance.getJugador();
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
@@ -99,7 +99,7 @@ public class CompraTest {
         Jugador jugador = new Jugador();
         Calle calle = new Calle();
         Compra instance = new Compra(jugador, calle, 0);
-        Calle expResult = null;
+        Calle expResult = new Calle();
         Calle result = instance.getCalle();
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
